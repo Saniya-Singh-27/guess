@@ -1,0 +1,12 @@
+.container{
+    border: 1px solid black;
+    text-align: center;
+    width: 30%;
+    margin-top: 20%;
+    margin-left: 30%;
+    box-shadow: 2px 0px 5px;
+    border-radius: 10px;
+    height: 40%;
+    padding: 20px;
+}
+.input-group { display: flex; justify-content: center; align-items: center; margin-top: 10px; }

@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style1.css"/>
 </head>
 <body>
-    kldfgd
+    <div class="container">
+    <h1><center>Guess The Number</center></h1>
+    <p><center>Pick a number from 1 to 100</center></p>
+    <div class="input-group">
+    <input type="number" id="inp" placeholder="Enter Your Guess"><br>
+    <button id="btn">Guess!</button>
+    </div>
+    <p id="msg"></p>
+    <p>Attempts:<span id="Attempt"></span></p>
+    <button id="resBtn" style="display: none;">Restart</button>
+    </div>
+    <script src="./logic.js"></script>
 </body>
 </html>
