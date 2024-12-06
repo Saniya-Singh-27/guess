@@ -1,2 +1,2 @@
 # first game
-team1 branch
+team2git  branch
